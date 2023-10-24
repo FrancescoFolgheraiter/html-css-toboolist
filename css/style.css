@@ -21,7 +21,7 @@ ul, ol {
 .container {
     width: 60%;
     margin: 0 auto;
-    padding:30px;
+    padding:30px ;
     background-color: white;
     border-radius:5px;
     margin-bottom:10px;
@@ -29,6 +29,10 @@ ul, ol {
 
 body {
     background-color: #c4c4c450;
+}
+
+h2{
+    margin:20px 0;
 }
 
 /*
@@ -43,20 +47,49 @@ header {
 header h1, header img {
     vertical-align: middle;
     display: inline-block;
+    
 }
 
 /*
     main
 */
+
+.post-it{
+    border-radius:20px;
+    margin:5px;
+    padding:10px;
+    background-color: grey;
+}
+
+/*sezione superiore main*/
 .button{
     display:inline-block;
-    margin:10px;
+    padding:10px;
     border: 1px solid black;
     border-radius:5px;
+} 
+.white{
+    background-color: white;
+    color:grey;
+    border-color:grey;
 }
+
+.blue{
+    background-color:blue;
+    color:white;
+    border-color:blue;
+}
+
+
+
+
+/*sezione inferiore*/
+
 li{
-    margin:10px;
+    margin:15px;
 }
+
+
 
 .check {
     border-radius: 50%;
