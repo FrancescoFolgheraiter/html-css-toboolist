@@ -35,6 +35,27 @@ h2{
     margin:20px 0;
 }
 
+.turquoise{
+    background-color: turquoise;
+}
+
+.indigo{
+    background-color: indigo;
+}
+
+.orange{
+    background-color: orange;
+}
+
+.pink{
+    background-color: rgb(214, 77, 123);
+}
+
+.green{
+    background-color: rgb(88, 214, 84);
+}
+
+
 /*
     header
 */
@@ -55,10 +76,10 @@ header h1, header img {
 */
 
 .post-it{
+    color:white;
     border-radius:20px;
     margin:5px;
     padding:10px;
-    background-color: grey;
 }
 
 /*sezione superiore main*/
