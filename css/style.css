@@ -7,3 +7,23 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
+
+
+/*
+    general
+*/
+
+
+/*
+    header
+*/
+header {
+    background-color: white;
+    padding: 5px 10px;
+    margin-bottom: 50px;
+}
+
+header h1, header img {
+    vertical-align: middle;
+    display: inline-block;
+}
