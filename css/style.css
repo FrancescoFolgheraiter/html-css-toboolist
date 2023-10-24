@@ -8,6 +8,11 @@
     font-family: 'Roboto', sans-serif;
 }
 
+ul, ol {
+    padding-left: 18px;
+    list-style: none;
+}
+
 
 /*
     general
@@ -16,6 +21,13 @@
 .container {
     width: 70%;
     margin: 0 auto;
+    background-color: white;
+    border-radius:5px;
+    margin-bottom:10px;
+}
+
+body {
+    background-color: #c4c4c450;
 }
 
 /*
@@ -30,4 +42,14 @@ header {
 header h1, header img {
     vertical-align: middle;
     display: inline-block;
+}
+
+/*
+    main
+*/
+.button{
+    display:inline-block;
+    margin:10px;
+    border: 1px solid black;
+    border-radius:5px;
 }
